@@ -8,10 +8,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/Dex-Bank/dex-bank-lib"
+    "url": "git+ssh://git@github.com/Dex-Bank/dex-bank-lib.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "engines": {
     "node": ">=10"
@@ -38,5 +39,8 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "merkle-patricia-tree": "^4.2.4"
+  }
 }
