@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/pancake-swap-lib",
+  "name": "@dexbank/dex-bank-lib",
   "version": "0.0.4",
-  "description": "Pancake Swap Lib",
+  "description": "Dex Bank Lib",
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:pancakeswap/pancake-swap-lib.git"
+    "url": "ssh://git@github.com/Dex-Bank/dex-bank-lib"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
