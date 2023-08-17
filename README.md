@@ -1,5 +1,4 @@
-# Pancake Swap Lib
-
+# Dex Bank Lib
 
 Solidity libraries that are shared across Uniswap contracts. These libraries are focused on safety and gas efficiency.
 
@@ -13,10 +12,10 @@ Run `yarn test` to execute the test suite.
 
 ## Usage
 
-Install this in another project via `yarn add @uniswap/lib` 
+Install this in another project via `yarn add @uniswap/lib`
 
 Then import the contracts via:
 
 ```solidity
-import "@pancakeswap/pancake-swap-lib/contracts/access/Ownable.sol"; 
+import '@dexbank/dex-bank-lib/contracts/access/Ownable.sol';
 ```
